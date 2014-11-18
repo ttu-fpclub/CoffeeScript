@@ -1,4 +1,4 @@
-alert math.min.apply null, [5,6]
+alert Math.min.apply null, [5,6]
 negate = (func) ->
   -> not func.apply null, arguments
 
